@@ -133,7 +133,7 @@ class Polje:
 
                 elif trenutna_koordinata in kacina_polja:
                     if trenutna_koordinata == kacina_polja[0]:
-                        izris += "0 "
+                        izris += "# "
                     else:
                         izris += "o "
 
