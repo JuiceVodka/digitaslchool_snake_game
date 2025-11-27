@@ -141,7 +141,7 @@ class Polje:
                     izris += "  "
             izris += "|\n"
         izris += (self.igralno_polje.shape[1]*2 +2) * "-"
-        izris += f"    {self.kaca.smer}"
+        #izris += f"    {self.kaca.smer}"
         izris += f"\n Current score: {len(kacina_polja)-5}"
         return izris
 
@@ -155,7 +155,7 @@ class Polje:
                 break
 
             self.hrana = self.kaca.premakni(self.hrana)
-            time.sleep(0.5)
+            time.sleep(0.25)
         print("GAME OVER")
 
 
