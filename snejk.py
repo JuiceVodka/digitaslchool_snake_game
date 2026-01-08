@@ -158,7 +158,11 @@ class Polje:
             time.sleep(0.25)
         print("GAME OVER")
 
-
+def zahec():
+    print("FGHI")
+    print("IJK")
+    a = 7
+    return a
 
 
 polje = Polje()
