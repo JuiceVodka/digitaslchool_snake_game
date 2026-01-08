@@ -179,6 +179,6 @@ listener.start()
 
 polje.game_loop()
 
-
+#dodaten komentar
 
 #pygame + github
