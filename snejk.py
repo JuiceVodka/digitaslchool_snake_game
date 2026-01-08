@@ -129,11 +129,20 @@ class Polje:
                 trenutna_koordinata = (i, j)
 
                 if trenutna_koordinata == self.hrana:
-                    izris += "x "
+                    izris += "+ "
 
                 elif trenutna_koordinata in kacina_polja:
                     if trenutna_koordinata == kacina_polja[0]:
-                        izris += "# "
+                        if self.kaca.smer == "w":
+                            izris += "A "
+                        elif self.kaca.smer == "a":
+                            izris += "< "
+                        elif self.kaca.smer == "s":
+                            izris += "V "
+                        elif self.kaca.smer == "d":
+                            izris += "> "
+
+                        #izris += "# "
                     else:
                         izris += "o "
 
