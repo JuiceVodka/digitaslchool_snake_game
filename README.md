@@ -16,3 +16,4 @@ Osnove githuba, add, commit, push pull, branching, merge resolution.....
 - git checkout *branch* -> premakne se na vejo branch
 - git branch -> izpiše vse veje in na kateri veji smo
 - git merge *branch* -> združi vejo branch v trenutno vejo
+- dodajamo vrstico
